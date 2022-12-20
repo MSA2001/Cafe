@@ -26,8 +26,8 @@ class Drink(models.Model):
 
 
 class About(models.Model):
-    title = models.CharField(max_length=100)
-    body = models.CharField(max_length=200)
+    title = models.CharField(max_length=150)
+    body = models.CharField(max_length=1000)
     image = models.ImageField(upload_to='images/about')
 
     def __str__(self):
