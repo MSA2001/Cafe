@@ -3,7 +3,7 @@
             <div class="tm-special-items">
             {% for drink in special_drinks %}
               <div class="tm-black-bg tm-special-item">
-                <img src="{{ drink.image.url }}" alt="Image">
+                <img src="{{ drink.image.url }}" alt="Image" height="160px" width="320px">
                 <div class="tm-special-item-description">
                   <h2 class="tm-text-primary tm-special-item-title">{{ drink.name }}</h2>
                   <p class="tm-special-item-text">{{ drink.detail }}</p><br>

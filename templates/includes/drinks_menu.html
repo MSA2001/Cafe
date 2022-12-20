@@ -17,7 +17,7 @@
               <div class="tm-list">
               {% for drink in cold_drinks %}
                 <div class="tm-list-item">
-                  <img src="{{ drink.image.url }}" alt="Image" class="tm-list-item-img">
+                  <img src="{{ drink.image.url }}" alt="Image" class="tm-list-item-img" height="160px" width="160px">
                   <div class="tm-black-bg tm-list-item-text">
                     <h3 class="tm-list-item-name">{{ drink.name }}<span class="tm-list-item-price">${{ drink.price }}</span></h3>
                     <p class="tm-list-item-description">{{ drink.detail }}</p>
@@ -34,7 +34,7 @@
               <div class="tm-list">
               {% for drink in hot_drinks %}
                 <div class="tm-list-item">
-                  <img src="{{ drink.image.url }}" alt="Image" class="tm-list-item-img">
+                  <img src="{{ drink.image.url }}" alt="Image" class="tm-list-item-img" height="160px" width="160px">
                   <div class="tm-black-bg tm-list-item-text">
                     <h3 class="tm-list-item-name">{{ drink.name }}<span class="tm-list-item-price">${{ drink.price }}</span></h3>
                     <p class="tm-list-item-description">{{ drink.detail }}</p>
@@ -51,7 +51,7 @@
               <div class="tm-list">
               {% for drink in fruit_drinks %}
                 <div class="tm-list-item">
-                  <img src="{{ drink.image.url }}" alt="Image" class="tm-list-item-img">
+                  <img src="{{ drink.image.url }}" alt="Image" class="tm-list-item-img" height="160px" width="160px">
                   <div class="tm-black-bg tm-list-item-text">
                     <h3 class="tm-list-item-name">{{ drink.name }}<span class="tm-list-item-price">${{ drink.price }}</span></h3>
                     <p class="tm-list-item-description">{{ drink.detail }}</p>
