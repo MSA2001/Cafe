@@ -22,7 +22,7 @@ class Drink(models.Model):
     image = models.ImageField(upload_to='images/drinks')
 
     def __str__(self):
-        return f'{self.name}-{self.category}- {self.price}$'
+        return f'{self.name}-- {self.price}$'
 
 
 
