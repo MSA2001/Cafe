@@ -1,7 +1,8 @@
 from django.contrib import admin
-from .models import Category, Drink
+from .models import Category, Drink, About
 
 # Register your models here.
 
 admin.site.register(Category)
 admin.site.register(Drink)
+admin.site.register(About)

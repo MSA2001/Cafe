@@ -25,4 +25,13 @@ class Drink(models.Model):
         return f'{self.name}-- {self.price}$'
 
 
+class About(models.Model):
+    title = models.CharField(max_length=100)
+    body = models.CharField(max_length=200)
+    image = models.ImageField(upload_to='images/about')
+
+    def __str__(self):
+        return self.title
+
+
 
