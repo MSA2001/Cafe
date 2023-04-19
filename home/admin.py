@@ -4,7 +4,6 @@ from .models import Category, Drink, About, Contact
 # Register your models here.
 
 
-
 @admin.register(Drink)
 class DrinkAdmin(admin.ModelAdmin):
     list_display = ('name', 'price', 'images')
